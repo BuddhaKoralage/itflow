@@ -17,6 +17,7 @@ $countries_array = array(
 );
 
 $currencies_array = array(
+'LKR'=>'Srilankan Rupees',
     'USD'=>'US Dollars',
     'EUR'=>'Euro',
     'GBP'=>'British Pounds',
@@ -260,7 +261,7 @@ if(isset($_POST['add_company_settings'])){
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>ITFlow Setup</title>
+  <title>QJ Setup</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -295,9 +296,9 @@ if(isset($_POST['add_company_settings'])){
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       
-      <!-- Brand Logo -->
+      <!-- Brand Logo 
       <a href="https://itflow.org" class="brand-link">
-        <h3 class="brand-text font-weight-light">ITFlow</h3>
+        <h3 class="brand-text font-weight-light">ITFlow</h3>-->
       </a>
 
       <!-- Sidebar -->
@@ -392,7 +393,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-lock"></i></span>
                     </div>
-                    <input type="password" class="form-control" name="password" placeholder="Database Password" required>
+                    <input type="password" class="form-control" name="password" placeholder="Database Password" >
                   </div>
                 </div>
 
@@ -457,7 +458,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-lock"></i></span>
                     </div>
-                    <input type="password" class="form-control" name="password" placeholder="Enter a Password" required>
+                    <input type="password" class="form-control" name="password" placeholder="Enter a Password" >
                   </div>
                 </div>
                 

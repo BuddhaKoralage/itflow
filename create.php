@@ -28,7 +28,7 @@ try {
 
   $paymentIntent = \Stripe\PaymentIntent::create([
     'amount' => calculateOrderAmount($json_obj->items),
-    'currency' => 'usd',
+    'currency' => 'lkr',
   ]);
 
   $output = [

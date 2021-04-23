@@ -183,6 +183,7 @@ $timezones_array = array(
 );
 
 $currencies_array = array(
+'LKR'=>'Srilankan Rupees',
     'USD'=>'US Dollars',
     'EUR'=>'Euro',
     'GBP'=>'British Pounds',

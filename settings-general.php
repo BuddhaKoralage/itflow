@@ -6,7 +6,7 @@
   <div class="card-header">
     <h3 class="card-title"><i class="fa fa-fw fa-cog"></i> General Settings</h3>
   </div>
-  <div class="card-body">
+ <!-- <div class="card-body">
     <form action="post.php" method="post" autocomplete="off">
 
       <div class="form-group">
@@ -46,7 +46,7 @@
       <button type="submit" name="edit_general_settings" class="btn btn-primary">Save</button>
         
     </form>
-  </div>
+  </div> -->
 </div>
 
 <?php include("footer.php");

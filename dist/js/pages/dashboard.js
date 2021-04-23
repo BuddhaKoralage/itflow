@@ -52,7 +52,7 @@ $(function () {
 
   // jvectormap data
   var visitorsData = {
-    US: 398, // USA
+   LK: 398, // USA
     SA: 400, // Saudi Arabia
     CA: 1000, // Canada
     DE: 500, // Germany
